@@ -1,0 +1,174 @@
+body, html{
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+    height: 100%;
+    background-color: oldlace;
+    overflow-x: hidden;
+}
+
+ul{
+    list-style: none;
+}
+
+
+#index-logo{
+    width: 20%;
+    float: left;
+}
+
+#index-logo img{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 100%;
+    height: auto;
+}
+
+
+#nav-bar-ul{
+    list-style: none;
+    position: relative;
+    top: 20px;
+    font-size: 17px;
+    float: right;
+    margin-right: 35px;
+}
+
+#nav-bar-li{
+    display: inline-block;
+    margin: 5px;
+}
+
+#nav-bar-ul-drop-down{
+    display: none;
+    position: absolute;
+    left: 38%;
+    top: 90%;
+}
+
+#nav-bar-li-drop-down{
+    float: none;
+    margin-top: 5px;
+}
+
+
+#nav-bar-li:hover>#nav-bar-ul-drop-down{
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#nav-bar-li>a.selected,a:hover {
+    font-weight: bold;
+    transition: .5s;
+}
+
+
+#wallpaper-img{
+    position: absolute;
+    top: 8%;
+    width: 100%;
+}
+
+#wallpaper-img>img{
+    margin: auto;
+    display: block;
+}
+
+#mj-introduction{
+    position: absolute;
+    background-color: transparent;
+    top: 70%;
+    
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+#mj-instroduction p{
+    
+    font-size: 15px;
+}
+
+#mj-nav{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+#mj-nav-bar-ul{
+    list-style: none;
+    
+}
+
+#mj-nav-bar-li{
+    display: inline-block;
+    margin: 40px;
+}
+
+#mj-nav-bar-li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.mj-nav:hover {
+    background-color:indianred;
+    font-weight: normal;
+    transition: .5s;
+}
+
+
+#info{
+    border-radius: 30px;
+    border: 2px solid black;
+    background-color: white;
+    position: fixed;
+    height: 100px;
+    width: 340px;
+    left: 5%;
+    bottom: 10%;
+    
+    
+}
+
+
+#contact-text{
+    position: absolute;
+    top: 25%;
+    width: 60%;
+    height: 45%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 17px;
+    
+}
+
+
+#about{
+    position: inherit;
+    left: 10%;
+    width: 30%;
+}
+
+#contact-info{
+
+    position: absolute;
+    right: 15%;
+}
+
+
+
+
+#me{
+    width: 40%;
+    position: absolute;
+    right: 10%;
+    top: 45%;
+}
