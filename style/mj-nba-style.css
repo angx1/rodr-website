@@ -108,9 +108,4 @@ ul{
     display: block;    
 }
 
-#nba-img img:hover{
-    content: url("/media/asset8.jpeg");
-    width: 50%;
-    height: auto;
-    
-}
+
